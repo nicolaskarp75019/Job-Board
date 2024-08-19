@@ -1,0 +1,76 @@
+header {
+  width: 1440px;
+  height: 100px;
+  background-color: #333333;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  width: 1440px;
+  height: 63px;
+  background-color: #dddddd;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.item {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  border: solid;
+  border-width: 10px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item p {
+  font-size: 30px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.item span {
+  font-size: 18px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.red {
+  border-color: red;
+}
+.yellow {
+  border-color: yellow;
+}
+.green {
+  border-color: green;
+}
+.blue {
+  border-color: blue;
+}
+
+.saumon {
+  border-color: #f8c5af;
+}
